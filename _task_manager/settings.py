@@ -30,6 +30,7 @@ THIRD_PARTY_APP = [
 MY_APPS = [
     'users',
     'clients',
+    'lists',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APP + MY_APPS
