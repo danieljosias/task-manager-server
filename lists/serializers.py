@@ -10,7 +10,7 @@ class ListSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = List
-        fields = ['id', 'title', 'user', 'user_id',]
+        fields = ['id', 'title', 'card', 'user', 'user_id',]
         read_only_fields = ['id']
 
 
